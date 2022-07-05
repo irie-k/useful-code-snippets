@@ -815,7 +815,7 @@ Red
 
 <h2 align='center'>SCSS</h2>
 
-<h3 align='center'>Color Pallettes</h3>
+<h3 align='center'>Color Maps</h3>
 
 <details>
 <summary>Material Design</summary>
