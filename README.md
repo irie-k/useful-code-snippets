@@ -193,8 +193,6 @@ Font Awesome Link
 
 <h3 align='center'>Comments</h3>
 
-<br>
-
 ```css
 /*-----------------------------------*\
   #SECTION
@@ -203,7 +201,8 @@ Font Awesome Link
 
 ```css
 /**
- * Comment
+ * Multi-line
+ * comment
  */
 ```
 
@@ -1149,9 +1148,8 @@ Always end section brackets 2 columns after last letter
 ```
 
 ```scss
-//
-// Comment
-//
+// Multi-line
+// comment
 ```
 
 <br>
