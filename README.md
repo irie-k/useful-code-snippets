@@ -1143,9 +1143,9 @@ $colors: (
 Always end section brackets 2 columns after last letter
 
 ```scss
-//-----------
+//-------------------------------------
 // #SECTION
-//-----------
+//-------------------------------------
 ```
 
 ```scss
