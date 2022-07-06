@@ -217,7 +217,21 @@ Font Awesome Link
 
 <!-- prettier-ignore -->
 ```css
-*, *::before, *::after { box-sizing: border-box; }
+/**
+ * Set up a decent box model on the root element
+ */
+html {
+  box-sizing: border-box;
+}
+
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ */
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 
 blockquote, figcaption, fieldset, address, article, caption, details, section,
 summary, canvas, figure, footer, header, hgroup, iframe, legend, object,
@@ -237,9 +251,7 @@ h1, h2, h3, h4, h5, h6, li, ol, td, th, tr, ul, a, b, i, p, q, s {
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main,
-menu, nav, section {
-  display: block;
-}
+menu, nav, section { display: block; }
 
 body { line-height: 1; }
 
