@@ -268,6 +268,10 @@ input {
   border-radius: 0;
   -webkit-appearance: none;
 }
+
+a{
+  text-decoration: none;
+}
 ```
 
 <br>
