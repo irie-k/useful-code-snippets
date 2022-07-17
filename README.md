@@ -194,16 +194,15 @@ Font Awesome Link
 <h3 align='center'>Comments</h3>
 
 ```css
-/*-----------------------------------*\
-  #SECTION
-\*-----------------------------------*/
+/*====================================*\
+|  #SECTION                            |
+\*====================================*/
 ```
 
 ```css
-/**
- * Multi-line
- * comment
- */
+/*--------|
+| Comment |
+|--------*/
 ```
 
 <br>
@@ -212,18 +211,18 @@ Font Awesome Link
 
 <!-- prettier-ignore -->
 ```css
-/**
- * Set up a decent box model on the root element
- */
+/*----------------------------------------------|
+| Set up a decent box model on the root element |
+|----------------------------------------------*/
 html {
   box-sizing: border-box;
 }
 
-/**
- * Make all elements from the DOM inherit from the parent box-sizing
- * Since `*` has a specificity of 0, it does not override the `html` value
- * making all elements inheriting from the root box-sizing value
- */
+/*------------------------------------------------------------------------|
+| Make all elements from the DOM inherit from the parent box-sizing       |
+| Since `*` has a specificity of 0, it does not override the `html` value |
+| making all elements inheriting from the root box-sizing value           |
+|------------------------------------------------------------------------*/
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -1146,14 +1145,15 @@ $colors: (
 Always end section brackets 2 columns after last letter
 
 ```scss
-//-------------------------------------
+//======================================
 // #SECTION
-//-------------------------------------
+//======================================
 ```
 
 ```scss
-// Multi-line
-// comment
+//------------
+// Comment
+//------------
 ```
 
 <br>
